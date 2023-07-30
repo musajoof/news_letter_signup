@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .hide {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
